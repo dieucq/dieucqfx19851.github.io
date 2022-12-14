@@ -98,6 +98,8 @@
   #job-info .language,
   #job-info .skill {
     margin: 0 5%;
+    text-align: left;
+    border: 1px solid rgba(220, 220, 220, 0.8);
   }
 
   /* Certificate */
