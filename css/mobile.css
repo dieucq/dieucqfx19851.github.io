@@ -207,13 +207,31 @@
   }
 
   /* FOOTER */
-  #footer .container ul a i {
-    padding-right: 10px;
-    font-size: 3em;
-    color: #199cdb;
+  #footer .container {
+    width: 100%;
+    height: 100px;
+  }
+  #footer .container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  #footer .container ul li {
+    padding: 0;
+  }
+  #footer .container ul a {
+    display: flex;
+    align-items: start;
+    text-decoration: none;
   }
   #footer .container ul a span {
-        visibility: hidden;
+    display: none;
+  }
 
+  #footer .container ul a i {
+    padding: 0;
+    font-size: 3em;
+    color: #199cdb;
   }
 } ;
