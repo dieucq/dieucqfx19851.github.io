@@ -213,6 +213,7 @@
     color: #199cdb;
   }
   #footer .container ul a span {
-    display: none;
+        visibility: hidden;
+
   }
 } ;
