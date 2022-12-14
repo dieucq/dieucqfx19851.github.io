@@ -25,6 +25,7 @@
     left: 50%;
     transform: translate(-50%, -20%);
     -webkit-text-stroke: 1px lightseagreen;
+    font-size: 70%;
   }
   /* navbar */
   #nav-bar .container {
